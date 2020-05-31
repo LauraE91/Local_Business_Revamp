@@ -1,0 +1,21 @@
+/*Variables*/
+:root {
+  --dark: #3F1E11;
+  --light: #e9d9b8;
+  --accent: #4c4f0f;
+}
+
+/*GLobal*/
+
+*, *::before, *::after {
+  margin: 0;
+  padding: 0;
+}
+
+
+
+
+ .heading {
+  color: var(--dark);
+  background: black;
+}

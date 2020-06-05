@@ -1,0 +1,21 @@
+.Home {
+  display: flex;
+}
+
+.hero-img {
+  background-color: blue;
+  background-image:url("/img/fudge1.jpg");
+  background-position: center;
+  background-repeat: none;
+  background-size: cover;
+  width: 300px;
+  height: 500px;
+}
+
+.Home {
+  position: relative;
+}
+
+.home-header {
+  position: absolute;
+}

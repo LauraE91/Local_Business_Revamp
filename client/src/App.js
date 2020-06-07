@@ -2,11 +2,12 @@
 import React, { useState } from 'react';
 import { Link, Switch, Route } from 'react-router-dom';
 import './App.css';
-import Home from './components/Home';
+import Home from './components/Home/Home';
 import About from './components/About';
 import Shopping from './components/Shopping';
 import Events from './components/Events';
 import Contact from './components/Contact';
+import Footer from './components/Footer';
 
 
 
@@ -14,6 +15,7 @@ import Contact from './components/Contact';
 function App() {
 
 const [navMenuClasses, setNavMenuClasses] = useState("nav-menu");
+const [accentBarClasses, setAccentBarClasses] = useState("accent-bar");
 
   //if (show) {
   //  navMenuClass = "nav-menu open";
@@ -21,21 +23,30 @@ const [navMenuClasses, setNavMenuClasses] = useState("nav-menu");
 
   const navMenuOpen = () => {
     setNavMenuClasses("nav-menu open")
+    setAccentBarClasses("accent-bar hide")
+
   }
 
   const navMenuClose = () => {
     setNavMenuClasses("nav-menu")
+    setAccentBarClasses("accent-bar")
   }
+
+  /*
+  <div className={accentBarClasses}>
+    <p>118 North Michigan Avenue, Big Rapids, Michigan / 231.796.2502</p>
+  </div>
+  */
 
   return (
 
     <div className="App">
+
       <div className="nav-container">
         <nav className="nav-bar">
           <li><Link to="/">Home</Link></li>
           <li><Link to="/about">About</Link></li>
           <li><Link to="/shopping">Shopping</Link></li>
-          <li><Link to="/events">Events</Link></li>
           <li><Link to="/contact">Contact</Link></li>
           <Link to="/shopping/cart" className="primary-btn">Cart</Link>
         </nav>
@@ -54,6 +65,7 @@ const [navMenuClasses, setNavMenuClasses] = useState("nav-menu");
         onClick={navMenuOpen} className="burger-menu-icon">
           <i className="fas fa-bars"></i>
         </div>
+
       </div>
 
 
@@ -66,6 +78,7 @@ const [navMenuClasses, setNavMenuClasses] = useState("nav-menu");
         <Route path="/contact"><Contact /></Route>
 
       </Switch>
+      <Footer />
     </div>
   );
 }

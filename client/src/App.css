@@ -18,8 +18,31 @@ html {
   background: var(--light);
 }
 
-h1 {
-  font-family: 'Lobster', cursive;
+/*
+--font-family: 'Berkshire Swash', cursive;
+font-family: 'Dancing Script', cursive;
+font-family: 'Niconne', cursive;
+font-family: 'Norican', cursive;
+font-family: 'Oregano', cursive;
+font-family: 'Trade Winds', cursive;
+font-family: 'Yesteryear', cursive;
+font-family: 'Lobster', cursive;
+
+*/
+
+h1, h2, h3 {
+  font-family: 'Berkshire Swash', cursive;
+}
+
+ h3 {
+
+  font-size: 2rem;
+}
+
+ h4 {
+  font-family: 'Raleway', sans-serif;
+  font-weight: bold;
+  font-size: 1.3rem;
 
 }
 
@@ -32,47 +55,111 @@ li {
   list-style-type: none;
 }
 
-.primary-btn {
-  border: 2px solid var(--dark);
-  padding: 0.20rem 2rem 0.25rem 2rem;
-  margin: -0.5rem;
+.primary-btn,
+.accent-btn {
   transition: var(--transition);
-  color: var(--dark);
   text-decoration: none;
+  background: inherit;
+  cursor: pointer;
+}
 
+.primary-btn {
+  margin: -0.5rem;
+  border-radius: 15px;
+  border: 2px solid var(--dark);
+  color: var(--dark);
+  padding: 0.37rem 2rem 0.25rem 2rem;
+}
+
+.accent-btn {
+  border: 2px solid var(--accent);
+  color: var(--accent);
+  padding: 0.7rem 2.3rem;
+  font-weight: bold;
+  font-size: 1.3rem;
 }
 
 .primary-btn:hover {
-  background: var(--dark);
+  background: var(--accent);
+  border: 2px solid var(--accent);
+
   color: var(--light);
   opacity: 1;
+}
 
+.accent-btn:hover {
+  background: var(--accent);
+  color: var(--light);
+}
+
+
+.global-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 1rem auto;
+  padding: 2rem;
+  max-width: 350px;
+}
+
+.global-card-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 2rem;
+}
+
+.global-input {
+  outline: none;
+  border: 2px solid var(--dark);
+  background: inherit;
+  color: var(--dark);
+  padding: 0.7rem 2.3rem;
+  font-weight: bold;
+  font-size: 1.3rem;
+
+}
+
+.global-input::placeholder {
+  color: rgba(63, 30, 17, 0.5);
+}
+
+@media(min-width: 1050px) {
+  .global-card-container {
+    flex-direction: row;
+  }
 }
 
 .nav-container {
   display: flex;
   justify-content: flex-end;
   width: 100%;
+  background: white;
+  padding-bottom: 2rem;
 }
 
 
 
 .nav-bar {
   margin-top: 2rem;
-  padding-right: 2rem;
+  padding-right: 2.5rem;
   display: none;
-  width: 70%;
+  width: 55%;
   justify-content: space-around;
+
 
 }
 
-@media(min-width: 1100px) {
+@media(min-width: 1200px) {
   .nav-bar {
     display: flex;
+
   }
 
   .nav-menu {
     display: none;
+
   }
 
   .burger-menu-icon {
@@ -81,7 +168,6 @@ li {
 }
 
 .nav-bar li {
-
 }
 
 .nav-bar li a,
@@ -98,7 +184,8 @@ li {
 }
 
 .nav-bar li a:hover {
-  opacity: 0.5;
+  background: var(--accent);
+  color: var(--light);
 }
 
 .nav-menu {
@@ -113,7 +200,7 @@ li {
   z-index: 999;
   opacity: 0.9;
   transition: var(--transition);
-  transform: translateY(-100%);
+  transform: translateY(-150%);
 }
 
 .nav-menu.open {
@@ -148,4 +235,11 @@ li {
 
 .close-btn:hover {
   opacity: 0.5;
+}
+
+@media(min-width: 1400px) {
+  .global-card-container {
+    width: 70%;
+    margin: 4rem auto;
+  }
 }

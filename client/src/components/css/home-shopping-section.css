@@ -1,0 +1,33 @@
+.home-shopping-section {
+  margin-top: 12rem;
+  background: var(--dark);
+  padding-bottom: 3rem;
+
+}
+
+
+
+.home-shopping-header h1 {
+  color: var(--light);
+  text-align: center;
+  font-size: 2.5rem;
+  padding: 2rem 3rem;
+}
+
+
+.shopping-card {
+  background: var(--light);
+
+
+}
+
+.shopping-card h4 {
+  margin: 1rem;
+  color: var(--dark);
+  
+
+}
+
+.card-img {
+  max-width: 250px;
+}

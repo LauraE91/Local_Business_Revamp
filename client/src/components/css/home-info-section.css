@@ -1,0 +1,39 @@
+
+.info-card {
+  background: var(--dark);
+  padding: 2rem 4rem;
+  max-width: 200px;
+}
+
+
+
+.info-card h3,
+.info-card p,
+.info-card li {
+  color: var(--light);
+}
+blockquote {
+  margin-bottom: 1.5rem;
+}
+.info-card p,
+.info-card li {
+  margin-top: 1rem;
+}
+
+.accent-card {
+  border: 5px solid var(--accent);
+  background: inherit;
+
+}
+
+.accent-card li,
+.accent-card h3,
+.accent-card2 li,
+.accent-card2 h3 {
+  color: var(--dark);
+}
+
+.accent-card2 {
+  border: 5px dashed var(--dark);
+  background: inherit;
+}

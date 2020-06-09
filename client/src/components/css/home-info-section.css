@@ -20,6 +20,15 @@ blockquote {
   margin-top: 1rem;
 }
 
+.info-card h3 a {
+  color: var(--dark);
+}
+
+.info-card h3 a:hover {
+  color: var(--dark);
+  text-decoration: none;
+}
+
 .accent-card {
   border: 5px solid var(--accent);
   background: inherit;

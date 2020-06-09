@@ -1,0 +1,30 @@
+.events-page {
+  padding: 3rem;
+}
+.events-page h1,
+.events-page p {
+  color: var(--dark);
+}
+
+.events-page p {
+  margin-top: 1rem;
+}
+
+@media(min-width: 830px) {
+  .events-page {
+    width: 70%;
+    margin: 0 auto;
+  }
+}
+
+@media(min-width: 1000px) {
+  .events-page {
+    width: 50%;
+  }
+}
+
+@media(min-width: 1100px) {
+  .events-page {
+    width: 40%;
+  }
+}

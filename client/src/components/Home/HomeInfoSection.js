@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "../../App.css";
 import "../css/home-info-section.css";
 
@@ -17,7 +18,7 @@ function HomeInfoSection() {
         </div>
 
         <div className="global-card info-card accent-card2">
-          <h3>Events</h3>
+          <h3><Link to="/events">Events</Link></h3>
           <ul>
             <li>
             FEBRUARY 13th -  <br />come in wearing purple, green and gold and you will recieve a chocolate covered strawberry!</li>

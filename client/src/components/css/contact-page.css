@@ -1,0 +1,19 @@
+
+
+.contact-us-page {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: flex-start;
+  padding: 3rem;
+  }
+
+  .contact-us-page h1,
+  .contact-us-page li {
+    color: var(--dark);
+  }
+
+  .contact-us,
+  .hours {
+    margin: 2rem;
+}

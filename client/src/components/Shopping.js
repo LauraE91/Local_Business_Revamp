@@ -1,11 +1,50 @@
 import React from 'react';
+import ShoppingCard from './ShoppingCard';
 import { Link } from 'react-router-dom';
 import '../App.css';
+import './css/shopping-page.css';
 
 function Shopping() {
   return (
-    <div className="App">
-      <h1>Shopping</h1>
+    <div className="App shopping-page dark-clr">
+      <h1 className="title-1">Our Inventory</h1>
+      <section className="products-container">
+        <ShoppingCard>
+          <img className="card-img" src="/img/decor2.jpg"/>
+          <h4 className="title-4">"Every Moment Matters" Sign</h4>
+          <button className="primary-btn">View</button>
+        </ShoppingCard>
+
+        <ShoppingCard>
+          <img className="card-img" src="/img/decor3.jpg"/>
+          <h4 className="title-4">"Welcome to the Chaos" Sign</h4>
+          <button className="primary-btn">View</button>
+        </ShoppingCard>
+
+        <ShoppingCard>
+          <img className="card-img" src="/img/vanilla-lotion.jpg"/>
+          <h4 className="title-4">Vanilla Lotion</h4>
+          <button className="primary-btn">View</button>
+        </ShoppingCard>
+
+        <ShoppingCard>
+          <img className="card-img" src="/img/lavender-lotion.jpg"/>
+          <h4 className="title-4">Lavender Lotion</h4>
+          <button className="primary-btn">View</button>
+        </ShoppingCard>
+
+        <ShoppingCard>
+          <img className="card-img" src="/img/puzzle1.jpg"/>
+          <h4 className="title-4">Lake Supperior Agates Puzzle</h4>
+          <button className="primary-btn">View</button>
+        </ShoppingCard>
+
+        <ShoppingCard>
+          <img className="card-img" src="/img/puzzle2.jpg"/>
+          <h4 className="title-4">Grand Hotel Puzzle</h4>
+          <button className="primary-btn">View</button>
+        </ShoppingCard>
+      </section>
     </div>
   );
 }

@@ -11,17 +11,17 @@ import '../../App.css';
 
 function Home() {
   return (
-    <div className="Home">
+    <div className="App Home">
 
-        <header className="header">
+        <header className="hero-section">
 
-          <div className="header-content">
-            <h1>Old Pioneer Store & Emporium </h1>
+          <div className="hero-content">
+            <h1 className="title-1 dark-clr">Old Pioneer Store & Emporium </h1>
 
-            <p>A perfect combination of friendly service, entertaining displays filled with the finest gifts available.</p>
+            <p className="dark-clr">A perfect combination of friendly service, entertaining displays filled with the finest gifts available.</p>
           </div>
           <div className="hero-img"></div>
-          <div className="header-white-space"></div>
+          <div className="hero-white-space"></div>
         </header>
         <HomeAboutSection />
         <HomeShoppingSection />

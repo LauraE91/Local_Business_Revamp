@@ -7,7 +7,7 @@ function HomeCtaSection() {
     <section className="home-cta-section">
       <div className="cta-img"></div>
       <div className="cta-content">
-        <h4>Sign Up for Our Newsletter!</h4>
+        <h2 className="title-2 dark-clr">Sign Up for Our Newsletter!</h2>
           <form>
             <input className="global-input" type="email" placeholder="Enter Your Email..."/>
             <button className="accent-btn">SIGNUP</button>

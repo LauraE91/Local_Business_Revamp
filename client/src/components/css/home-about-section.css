@@ -5,13 +5,8 @@
 
 .home-about-section-container {
   background: var(--dark);
-  color: var(--light);
   padding: 4rem  8rem;
 
-}
-
-.home-about-section-body h1 {
-  font-size: 2.5rem;
 }
 
 .home-about-section-body p {
@@ -26,9 +21,7 @@
     display: grid;
     grid-template-columns: 50% 5% 40% 5%;
     grid-template-rows: 5% auto 20%;
-
   }
-
 
   .home-about-section-img {
     background-color: var(--accent);
@@ -48,10 +41,6 @@
     grid-row: 2 / 3;
     padding: 3rem 5rem;
   }
-
-  .home-about-section-body h1 {
-    font-size: 2.5rem;
-  }
 }
 
 @media(min-width: 1100px) {
@@ -60,20 +49,15 @@
     grid-template-columns: 40% 10% 40% 10%;
     grid-template-rows: 10% auto 10%;
   }
-  .home-about-section-body h1 {
-    font-size: 3.2rem;
-  }
+
 
   .home-about-section-img {
-
     min-height: 600px;
   }
-
 }
 
 @media(min-width: 1200px) {
   .home-about-section-img {
     background-position: top;
   }
-
 }

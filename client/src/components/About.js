@@ -6,8 +6,8 @@ import './css/about-page.css';
 function About() {
   return (
     <div className="App about-page">
-      <article className="about-content">
-        <h1>About Us</h1>
+      <article className="about-content dark-clr">
+        <h1 className="title-1">About Us</h1>
 
         <p>The Old Pioneer Store and Emporium is a place you go to truly enjoy shopping in Big Rapids, Michigan. We are located in the historic downtown district right across from Schuberg's bar and the Blue Cow restaurant on Michigan Avenue.</p>
 
@@ -26,9 +26,9 @@ function About() {
 
       <aside className="side-panel">
         <img className="about-img" src="/img/aboutusprofilepicture.jpg"/>
-        <article className="news-box">
-        <h2>In The News...</h2>
-        <p>The Old Pioneer Store was named Mecosta County's people's choice for best gifts and TV 9 & 10's peoples choice for the best Gift shop in Northern Michigan. This is an honor that we are proud of and humbled by. Our store is a place where people enjoy gathering and being entertained. We are a Big Rapids shopping tradition.</p>
+        <article className="news-box light-clr">
+        <h3 className="title-3">In The News...</h3>
+        <p >The Old Pioneer Store was named Mecosta County's people's choice for best gifts and TV 9 & 10's peoples choice for the best Gift shop in Northern Michigan. This is an honor that we are proud of and humbled by. Our store is a place where people enjoy gathering and being entertained. We are a Big Rapids shopping tradition.</p>
         </article>
       </aside>
     </div>

@@ -4,13 +4,9 @@
 
 .about-page h1,
 .about-page p {
-  color: var(--dark);
   margin-top: 1rem;
 }
 
-.about-page h1 {
-  font-size: 2rem;
-}
 
 .about-img {
   width: 300px;
@@ -33,10 +29,6 @@
   margin: 1rem;
 }
 
-.news-box p,
-.news-box h2 {
-  color: var(--light);
-}
 
 .news-box h2 {
   margin-bottom: 1rem;
@@ -52,10 +44,6 @@
   .about-content {
     margin-right: 2rem;
   }
-
-  .about-page h1 {
-    font-size: 2.5rem;
-  }
 }
 
 @media(min-width: 1000px) {
@@ -63,30 +51,22 @@
     width: 80%;
   }
 
-  .about-page h1 {
-    font-size: 3rem;
-  }
-
-
 }
 
 @media(min-width: 1200px) {
   .about-page {
     width: 70%;
-
   }
 }
 
 @media(min-width: 1300px) {
   .about-page {
     width: 60%;
-
   }
 }
 
 @media(min-width: 1500px) {
   .about-page {
     width: 50%;
-
   }
 }

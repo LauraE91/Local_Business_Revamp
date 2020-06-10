@@ -5,8 +5,8 @@ import './css/events-page.css';
 
 function Events() {
   return (
-    <div className="App events-page">
-      <h1>Events</h1>
+    <div className="App events-page dark-clr">
+      <h1 className="title-1">Events</h1>
       <p>
       THE ENTIRE MONTH OF JANUARY ALL WINTER APPAREL AND CHRISTMAS IS ONE HALF OFF!</p>
 

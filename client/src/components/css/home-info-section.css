@@ -6,12 +6,6 @@
 }
 
 
-
-.info-card h3,
-.info-card p,
-.info-card li {
-  color: var(--light);
-}
 blockquote {
   margin-bottom: 1.5rem;
 }
@@ -20,12 +14,7 @@ blockquote {
   margin-top: 1rem;
 }
 
-.info-card h3 a {
-  color: var(--dark);
-}
-
 .info-card h3 a:hover {
-  color: var(--dark);
   text-decoration: none;
 }
 
@@ -33,13 +22,6 @@ blockquote {
   border: 5px solid var(--accent);
   background: inherit;
 
-}
-
-.accent-card li,
-.accent-card h3,
-.accent-card2 li,
-.accent-card2 h3 {
-  color: var(--dark);
 }
 
 .accent-card2 {

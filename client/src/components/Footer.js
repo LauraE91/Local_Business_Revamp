@@ -12,8 +12,8 @@ function Footer() {
           <p>118 North Michigan Avenue,</p>
           <p>Big Rapids, Michigan</p>
           <p>231.796.2502</p>
-          <a><i class="fab fa-facebook-square" /></a>
-          <a><i class="fab fa-pinterest-square" aria-hidden="true" /></a>
+          <a><i className="fab fa-facebook-square" /></a>
+          <a><i className="fab fa-pinterest-square" aria-hidden="true" /></a>
         </div>
 
         <div className="footer-nav">

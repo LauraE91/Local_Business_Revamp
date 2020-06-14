@@ -28,8 +28,10 @@ function HomeInfoSection() {
 
         <div className="global-card info-card">
           <h3 className="light-clr title-3">Testimonials</h3>
-          <p className="light-clr"><blockquote>I had a wonderful time at your store today! So many beautiful things and amazing service! Thank you!!!</blockquote>
-          <cite>Jamie Rose Medler</cite></p>
+          <div className="light-clr">
+            <blockquote >I had a wonderful time at your store today! So many beautiful things and amazing service! Thank you!!!</blockquote>
+            <cite>Jamie Rose Medler</cite>
+          </div>
         </div>
     </section>
   )

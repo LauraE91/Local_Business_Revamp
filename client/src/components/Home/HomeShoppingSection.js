@@ -26,7 +26,7 @@ function HomeShoppingSection() {
           <button className="primary-btn">View</button>
         </ShoppingCard>
 
-      </div>S
+      </div>
 
     </section>
   )

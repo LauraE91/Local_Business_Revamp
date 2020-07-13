@@ -1,6 +1,5 @@
 import React from 'react';
 import ShoppingCard from './ShoppingCard';
-import { Link } from 'react-router-dom';
 import '../App.css';
 import './css/shopping-page.css';
 

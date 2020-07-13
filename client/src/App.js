@@ -51,13 +51,12 @@ const [accentBarClasses, setAccentBarClasses] = useState("accent-bar");
         </nav>
 
         <nav className={navMenuClasses}>
-        <span
-        onClick={navMenuClose} className="close-btn"><i className="fas fa-times"></i></span>
+          <span
+          onClick={navMenuClose} className="close-btn"><i className="fas fa-times"></i></span>
           <li><Link to="/" onClick={navMenuClose}>Home</Link></li>
           <li><Link to="/about" onClick={navMenuClose}>About</Link></li>
           <li><Link to="/shopping" onClick={navMenuClose}>Shopping</Link></li>
           <li><Link to="/contact" onClick={navMenuClose}>Contact</Link></li>
-
         </nav>
 
         <Link to="/shopping/cart" className="cart-btn primary-btn">Cart</Link>
@@ -66,11 +65,7 @@ const [accentBarClasses, setAccentBarClasses] = useState("accent-bar");
         onClick={navMenuOpen} className="burger-menu-icon">
           <i className="fas fa-bars"></i>
         </div>
-
-
       </div>
-
-
 
       <Switch>
         <Route exact path="/"><Home /></Route>
@@ -78,8 +73,8 @@ const [accentBarClasses, setAccentBarClasses] = useState("accent-bar");
         <Route path="/shopping"><Shopping /></Route>
         <Route path="/events"><Events /></Route>
         <Route path="/contact"><Contact /></Route>
-
       </Switch>
+      
       <Footer />
     </div>
   );

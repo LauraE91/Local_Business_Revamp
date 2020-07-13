@@ -24,20 +24,15 @@
 @media(min-width: 800px) {
   .hero-slider {
     width: 70% !important;
-
+    }
   }
 
   @media(min-width: 900px) {
     .hero-slider {
       width: 60% !important;
       }
-
     }
 
-
-
-
-}
 
 @media(min-width: 1300px) {
   .hero-section {

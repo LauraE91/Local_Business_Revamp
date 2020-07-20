@@ -9,7 +9,7 @@ function Footer() {
       <div className="footer-main ">
         <div className="footer-contact light-clr">
           <h2 className="footer-title title-2">Find Us Here!</h2>
-          <p>118 North Michigan Avenue,</p>
+          <p>118 North Michigan Ave,</p>
           <p>Big Rapids, Michigan</p>
           <p>231.796.2502</p>
           <a><i className="fab fa-facebook-square" /></a>

@@ -2,7 +2,7 @@
 .info-card {
   background: var(--dark);
   padding: 2rem 4rem;
-  max-width: 200px;
+
 }
 
 
@@ -10,7 +10,8 @@ blockquote {
   margin-bottom: 1.5rem;
 }
 .info-card p,
-.info-card li {
+.info-card li,
+.info-card blockquote {
   margin-top: 1rem;
 }
 

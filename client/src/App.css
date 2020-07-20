@@ -64,7 +64,7 @@ html {
 
 /*Everything else*/
 p, li, a, button, blockquote, cite {
-  font-size: 1.2rem;
+  font-size: 1.1rem;
 }
 
 @media(min-width: 900px) {
@@ -90,7 +90,7 @@ p, li, a, button, blockquote, cite {
 
   /*Everything else*/
   p, li, a, button, blockquote, cite {
-    font-size: 1.4rem;
+    font-size: 1.3rem;
   }
 }
 
@@ -182,8 +182,8 @@ li {
   justify-content: center;
   align-items: center;
   margin: 1rem auto;
-  padding: 2rem;
-  max-width: 350px;
+  padding: 1.2rem;
+  max-width: 310px;
 }
 
 .global-card-container {
@@ -208,7 +208,16 @@ li {
   color: rgba(63, 30, 17, 0.5);
 }
 
+
+@media(min-width: 500px) {
+  .global-card {
+    min-width: 360px;
+    padding: 1.5rem;
+  }
+}
+
 @media(min-width: 1150px) {
+
   .global-card-container {
     flex-direction: row;
   }
